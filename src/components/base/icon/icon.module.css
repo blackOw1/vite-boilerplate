@@ -1,0 +1,32 @@
+.icon {
+  width: 20px;
+  height: 20px;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.iconMenu {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.iconMenuContainer {
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.iconMenuContainer::before,
+.iconMenuContainer::after {
+  content: '';
+  display: block;
+  width: inherit;
+  height: 2px;
+  background-color: #000000;
+}

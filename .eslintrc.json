@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "no-undef": "warn",
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "prefer-destructuring": ["warn", { "object": true, "array": true }],
+    "prefer-spread": "warn",
+    "prettier/prettier": ["error", { "singleQuote": true, "endOfLine": "off" }]
+  },
+  "env": {
+    "browser": true
+  }
+}

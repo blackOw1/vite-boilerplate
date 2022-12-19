@@ -1,0 +1,12 @@
+h1.font,
+h2.font,
+h3.font,
+h4.font,
+h5.font,
+h6.font {
+  font-weight: 700;
+}
+
+p.font {
+  font-weight: 400;
+}
